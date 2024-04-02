@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./global.scss";
 import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -13,10 +12,9 @@ export const metadata = {
 export default function RootLayout({ children, className = "" }) {
   return (
     <html lang="en">
+      {/* <main className={`main relative overflow-hidden ${className}`}> */}
       <Header />
-      <main
-        className={`main relative overflow-hidden ${className && className}`}
-      >
+      <main className={`main relative overflow-hidden`}>
         <body className={inter.className}> {children}</body>
       </main>
     </html>

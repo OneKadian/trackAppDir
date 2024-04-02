@@ -105,7 +105,7 @@ export const HomeBanner = () => {
         </MotionBTTContainer>
         {/* Appear Third */}
         <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
-          <Content className="text-center" alignment="center">
+          <Content className="text-center pt-6" alignment="center">
             <p>
               Streamline your nutrition journey and achieve your health goals
               with ease.{" "}

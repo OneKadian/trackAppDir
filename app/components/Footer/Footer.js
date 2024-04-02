@@ -57,7 +57,7 @@ export const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer id="footer" className="bg-white text-black bottom-0">
+    <footer id="footer" className="bg-white text-black bottom-0 ">
       {/* Footer Links */}
       <SectionContainer className="footer--container wrap wrap-px relative z-10">
         <div className="footer--content-container py-16">
