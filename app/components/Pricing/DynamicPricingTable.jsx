@@ -196,14 +196,14 @@ const PriceTable2 = () => {
               >
                 Pricing
               </PageTitle>
-              <Content className="text-center" alignment="center">
+              <Content className="text-center mt-6" alignment="center">
                 <p>Buy Once , Launch forever</p>
               </Content>
             </div>
             {/* Toggler */}
             <label class="inline-flex items-center cursor-pointer">
               <input type="checkbox" value="" class="sr-only peer" />
-              <span class="m-3 font-light text-primary-900 text-lg">
+              <span class="m-3 font-light text-primary-900 text-base">
                 Monthly Billing
               </span>
               <Switch
@@ -220,7 +220,7 @@ const PriceTable2 = () => {
                   } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                 />
               </Switch>
-              <span class="m-3 font-light text-primary-900 text-lg">
+              <span class="m-3 font-light text-primary-900 text-base">
                 Annual Billing
               </span>
             </label>
@@ -247,7 +247,7 @@ const PriceTable2 = () => {
                 <div className="flex flex-col items-center justify-center min-h-[100px] space-y-4 bg-opacity-70 p-6 bg-[#ffffff14]">
                   <div className="flex flex-row">
                     <div className="flex items-end">
-                      <div className="flex text-left text-[42px] font-semibold leading-6 text-gray-600">
+                      <div className="flex text-left text-[38px] font-semibold leading-6 text-gray-600">
                         {enabled && option.prices[0].price > 0 ? (
                           <>
                             <span className="mr-2 text-gray-500 line-through">
